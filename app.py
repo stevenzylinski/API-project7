@@ -6,8 +6,8 @@ import shap
 from utils import *
 
 app = Flask(__name__)
-model = pickle.load(open('./model/modelv3.pkl','rb'))
-explainer = pickle.load(open('./model/explainerv2.pkl','rb'))
+model = pickle.load(open('model/modelv3.pkl','rb'))
+explainer = pickle.load(open('model/explainerv2.pkl','rb'))
 
 @app.route('/api/makecalc/', methods=['POST'])
 
@@ -38,4 +38,4 @@ def makeimp():
 
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run()
