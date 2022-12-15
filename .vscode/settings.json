@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/bbe3bbf4-0ba6-445f-9d60-e6349e50a52b/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/OCR-API-quickstart-123",
+    "appService.deploySubpath": "."
+}
