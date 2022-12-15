@@ -1,3 +1,4 @@
+import numpy as np
 def sigmoid_function(x):
         y = np.exp(x)/(1+np.exp(x))
         return(y)
